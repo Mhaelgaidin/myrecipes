@@ -1,26 +1,31 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import axios from 'axios'
+import Nav from './components/Nav'
+import Recipe from './components/Recipe'
 
 function App() {
   const [recipes, setRecipes] = useState([])
+  const [activeRecipe, setActiveRecipe] = useState({})
 
   useEffect(() => {
     async function getRecipes() {
       let { data } = await axios.get(`/api`)
       setRecipes(data)
+      setActiveRecipe(data[0])
     }
     getRecipes()
   }, [])
 
+  const selectRecipe = (index) => {
+    setActiveRecipe(recipes[index])
+  }
   return (
     <div className='App'>
-      <header className='App-header'>
-        <h1>MyRecipes</h1>
-        {recipes.map((recipe, index) => (
-          <p key={index}>{recipe.name}</p>
-        ))}
-      </header>
+      <Nav recipes={recipes} selectRecipe={selectRecipe} />
+      <main>
+        <Recipe recipe={activeRecipe} />
+      </main>
     </div>
   )
 }

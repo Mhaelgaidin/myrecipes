@@ -1,16 +1,21 @@
 import express from 'express'
-import fs from 'fs'
+import dotenv from 'dotenv'
+import connectDB from './config/db.js'
+import Recipe from './models/recipeModel.js'
+
+dotenv.config()
+connectDB()
+
 const app = express()
 
 const PORT = process.env.PORT || 5000
 
-app.get('/api', (req, res) => {
-  fs.readFile('./backend/recipes.json', (err, data) => {
-    if (err) {
-      return res.send('Cannot find Recipes')
-    }
-    res.send(JSON.parse(data))
-  })
+app.get('/api', async (req, res) => {
+  Recipe.find()
+    .then((recipes) => res.json(recipes))
+    .catch((err) => {
+      res.send('Unable to Find Recipes')
+    })
 })
 
 app.listen(PORT, console.log(`Server running on PORT ${PORT}`))

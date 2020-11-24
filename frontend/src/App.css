@@ -13,7 +13,7 @@
 main {
   background-color: #faf9f9;
   height: 100vh;
-  width: 70vw;
+  width: 75vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,7 +26,7 @@ main {
 
 nav {
   height: 100vh;
-  width: 30vw;
+  width: 25vw;
   background-color: #555b6e;
   color: #faf9f9;
   box-sizing: border-box;
@@ -102,8 +102,13 @@ ul li {
   align-items: flex-start;
 }
 
-.lists section {
-  width: 50%;
+.ingredients {
+  width: 30%;
+  padding: 10px;
+}
+
+.steps {
+  width: 70%;
   padding: 10px;
 }
 

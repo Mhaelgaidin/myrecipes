@@ -1,9 +1,9 @@
 [
   {
     "name": "Crock Pot Roast",
-    "type": "",
-    "servings": 0,
-    "difficulty": "",
+    "type": "supper",
+    "servings": 4,
+    "difficulty": "intermediate",
     "ingredients": [
       {
         "quantity": "1",
@@ -43,9 +43,9 @@
   },
   {
     "name": "Roasted Asparagus",
-    "type": "",
-    "servings": 0,
-    "difficulty": "",
+    "type": "lunch",
+    "servings": 2,
+    "difficulty": "beginner",
     "ingredients": [
       {
         "quantity": "1 lb",
@@ -81,9 +81,9 @@
   },
   {
     "name": "Curried Lentils and Rice",
-    "type": "",
-    "servings": 0,
-    "difficulty": "",
+    "type": "supper",
+    "servings": 4,
+    "difficulty": "intermediate",
     "ingredients": [
       {
         "quantity": "1 quart",
@@ -123,9 +123,9 @@
   },
   {
     "name": "Big Night Pizza",
-    "type": "",
-    "servings": 0,
-    "difficulty": "",
+    "type": "lunch",
+    "servings": 2,
+    "difficulty": "beginner",
     "ingredients": [
       {
         "quantity": "5 teaspoons",
@@ -182,9 +182,9 @@
   },
   {
     "name": "Cranberry and Apple Stuffed Acorn Squash Recipe",
-    "type": "",
-    "servings": 0,
-    "difficulty": "",
+    "type": "snack",
+    "servings": 2,
+    "difficulty": "intermediate",
     "ingredients": [
       {
         "quantity": "2",
@@ -233,9 +233,9 @@
   },
   {
     "name": "Mic's Yorkshire Puds",
-    "type": "",
-    "servings": 0,
-    "difficulty": "",
+    "type": "supper",
+    "servings": 4,
+    "difficulty": "advanced",
     "ingredients": [
       {
         "quantity": "200g",
@@ -275,9 +275,9 @@
   },
   {
     "name": "Old-Fashioned Oatmeal Cookies",
-    "type": "",
-    "servings": 0,
-    "difficulty": "",
+    "type": "snack",
+    "servings": 4,
+    "difficulty": "intermediate",
     "ingredients": [
       {
         "quantity": "1 cup",
@@ -358,9 +358,9 @@
   },
   {
     "name": "Blueberry Oatmeal Squares",
-    "type": "",
-    "servings": 0,
-    "difficulty": "",
+    "type": "breakfast",
+    "servings": 2,
+    "difficulty": "intermediate",
     "ingredients": [
       {
         "quantity": "2-1/2 cups",
@@ -424,14 +424,14 @@
       "(Make-ahead: Cover and refrigerate for up to 2 days or overwrap with heavy-duty foil and freeze for up to 2 weeks.)"
     ],
     "timers": [10, 1, 60, 0, 0, 45, 0, 0],
-    "imageURL": "http://www.canadianliving.com/img/photos/biz/blueberry-oatmeal-squares5801359401371.jpg",
+    "imageURL": "https://i.pinimg.com/600x315/b7/35/f9/b735f91871695cfe6084cae6acc0e75b.jpg",
     "originalURL": "http://www.canadianliving.com/food/blueberry_oatmeal_squares.php"
   },
   {
     "name": "Curried chicken salad",
-    "type": "",
-    "servings": 0,
-    "difficulty": "",
+    "type": "lunch",
+    "servings": 2,
+    "difficulty": "intermediate",
     "ingredients": [
       {
         "quantity": "3",

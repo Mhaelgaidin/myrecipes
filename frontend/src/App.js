@@ -22,7 +22,11 @@ function App() {
   }
   return (
     <div className='App'>
-      <Nav recipes={recipes} selectRecipe={selectRecipe} />
+      <Nav
+        recipes={recipes}
+        selectRecipe={selectRecipe}
+        activeRecipe={activeRecipe}
+      />
       <main>
         <Recipe recipe={activeRecipe} />
       </main>

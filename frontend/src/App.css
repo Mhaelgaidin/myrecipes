@@ -43,6 +43,7 @@ nav * {
 }
 nav p {
   padding: 5px;
+  padding-left: 10px;
   border-radius: 3px;
 }
 nav p:hover {
@@ -132,8 +133,39 @@ h2 {
   border-bottom: 2px solid #89b0ae;
 }
 
+nav h3 {
+  padding: 3px;
+  border-radius: 3px;
+  margin-bottom: 3px;
+}
+nav h3:hover {
+  cursor: pointer;
+  background-color: #bee3db;
+  color: #555b6e;
+}
+
 .active {
   color: #bee3db;
+}
+
+aside {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+aside > div {
+  width: 60vw;
+  height: 60vh;
+  background-color: #faf9f9;
+  padding: 5px;
+  border: 1px solid #89b0ae;
+  border-radius: 3px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px #555b6e;
 }
 
 @media (max-width: 600px) {
@@ -164,7 +196,9 @@ h2 {
   .lists section {
     width: 90%;
   }
-  h1:hover {
-    cursor: pointer;
+
+  aside > div {
+    width: 75vw;
+    height: 75vh;
   }
 }
